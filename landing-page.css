@@ -7,22 +7,45 @@ body{
     background-color: #1F2937;
     font-size: 18px;
     display: flex;
-    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .header-logo{
+    padding: 15px;
     font-size: 24px;
-    font-weight: bold;    
+    font-weight: bold;
+    padding-right: 500px;   
+}
+
+.header-buttons{
+    display: flex;
 }
 
 .header-link{
-    
+    padding: 15px;
+}
+
+.header-link a{
+    font-size: 15px;
+    color: #F9FAF8;
+    text-decoration: none;
 }
 
 .upper-container{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    display: flex;
     padding: 150px;
     color: #F9FAF8;
     background-color: #1F2937;
+}
+
+.upper-container-text{
+    width: 500px;
+    flex-direction: column;
 }
 
 .upper-title{
@@ -37,16 +60,23 @@ body{
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 5px 25px 5px 25px;
+    padding: 8px 30px 8px 30px;
+    margin-top: 10px;
+}
+
+.image-container{
+    margin-left: 50px;
 }
 
 .image-fuji{
+    border-radius: 10px;
     width: 500px;
     height: auto;
 }
 
 .center-container{
     background-color: #F9FAF8;
+    padding: 0px 100px 100px 100px;
 }
 
 .center-title{
@@ -58,6 +88,8 @@ body{
 }
 
 .center-boxes{
+    text-align: center;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,10 +97,12 @@ body{
 }
 
 .center-box1{
-    padding: 70px;
+    width: 120px;
+    height: 120px;
     border: 3px solid;
     border-radius: 10px;
     border-color:  #3882F6;
+    margin-bottom: 5px;
 }
 
 .middle-container{
